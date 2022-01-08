@@ -18,7 +18,7 @@
     // $b= 0;
     // while($b>=7) {
     //     echo " the number is : $b <br> " ;
-    //     $b++;
+    
     // } 
     
 // DO WHILE LOOP EXAMPLE
