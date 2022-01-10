@@ -15,20 +15,13 @@
     // if($a>$b) {
     //     echo " niraj patel";
     // }
- if (true) {
-     function display() 
- {echo " conditional function " ;} 
-  } if (true) {
-      display();
-  }
-
-
-
-
-
-
-
-    //IF ELSE EXAMPLE
+//  if (true) {
+//      function display() 
+//  {echo " conditional function " ;} 
+//   } if (true) {
+//       display();
+//   }
+ //IF ELSE EXAMPLE
     // $X=90000;
     // $Y=4500000;
     // if($Y<=$X) {
