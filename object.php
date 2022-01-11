@@ -20,16 +20,17 @@
 // echo "<br/>" ;
 // echo $obj2->x;
 //EXAMPLE 2
-// class class1 {
-//     function __construct() {
-//         echo "start" ;
-//     }
-// function __destruct() {
-//     echo "end";
-// }
-// }
-// $obj1=new class1();
+class class1 {
+    function __construct() {
+        echo "start" ;
+    }
+function __destruct() {
+    echo "end";
+}
+}
+$obj1=new class1();
 
+//EX-2
 // class class1 {
 //     function fun1() {
 //         echo "fun1" ;
@@ -41,7 +42,9 @@
 // } $obj=new class1() ;
 // $obj->fun1() ;
 // $obj->fun2() ;
-//ex-2
+
+
+//EX-3
 // class class2 {
 //    public $r=7;
 //    public $b=5;
@@ -54,6 +57,8 @@
 // }$obj=new class2();
 // $obj->fun1();
 // $obj->fun2();
+
+//EX-4
 // class class3 {
 //     public $e=9 ;
 //     public $f=11 ;
@@ -66,6 +71,8 @@
 // } $obj= new class3();
 // $obj->fun1() ;
 // $obj->fun2() ;
+
+//EX-4
 // class class3 {
 //     public $w=12 ;
 //     function fun1() {
@@ -81,6 +88,7 @@
 
 
 //example of construct and destruct
+//EX-5
 // class class4 {
 //     function __construct() {
 //         echo "ami che tu maa";
@@ -88,7 +96,9 @@
 //         echo "chin chin chin" ;
 //     }
 // } $obj=new class4()
-//ex-2
+
+
+//EX-6
 // class class5 {
 //     function __construct(){
 //         echo "hello" ;
@@ -102,6 +112,7 @@
 
 
 //INHERITANCE EXAMPLE
+//EX-7
 // class class1 {
 //     function __construct() {
 //         echo "pushpa1" ;
@@ -114,6 +125,8 @@
 // }
 // $obj=new class2();
 // $obj->fun1();
+
+//EX-8
 // class class2 {
 //     function __construct() {
 //         $this->num=22;
@@ -132,6 +145,8 @@
 // } $obj= new class3();
 // // $obj->fun1();
 // echo $obj->num ;
+
+
 // ENCAPUPSULATION EXAMPLE
 
 //EXAMPLE-1 (PUBLIC TYPE)
