@@ -91,7 +91,8 @@
     // } 
     // echo " aeny total marks is 387 & per is :" ;
     // echo calper(387) ;
-   
-    ?>
+    
+
+?>
 </body>
 </html>
